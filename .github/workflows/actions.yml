@@ -3,6 +3,7 @@ name: Run web scraper
 on: 
   schedule:
     - cron: '1 0 1,15 * *' # Runs at 00:01 on day-of-month 1 and 15.
+  workflow_dispatch:
 
 jobs:
   build:
