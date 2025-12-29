@@ -50,6 +50,8 @@ If new tags are added or the infobox structure changes on the Tibia Wiki, **`mai
 
 - Python 3.x
 - `pip`
+- `requests`
+- `pandas`
 
 ### Installation
 
@@ -66,13 +68,6 @@ python main.py
 ```
 
 After execution, the file `tibia_wiki_items.csv` will be created or updated in the project directory.
-
----
-
-## 📄 Output
-
-- **File:** `tibia_wiki_items.csv`
-- **Content:** Structured data for all pickupable items scraped from the Tibia Fandom Wiki
 
 ---
 
