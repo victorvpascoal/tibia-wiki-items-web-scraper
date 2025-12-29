@@ -25,7 +25,7 @@ def query(request):
     while True:
         # Clone original request
         req = request.copy()
-        # Modify it with the values returned in the 'continue' section of the last result.
+        # Modify it with the values returned in the 'continue' section of the last result
         req.update(last_continue)
         # Call API
         result = requests.get(api_url, params=req).json()
